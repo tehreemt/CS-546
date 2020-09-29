@@ -1,0 +1,20 @@
+   <article class="new-palindrome">
+    <h1>The Best Palindrome Checker in the World!</h1>
+    <p>A palindrome is a word, number, phrase, or other sequence of characters which reads the same backward as forward, such as madam, racecar.The most familiar palindromes in English are character-unit palindromes. The characters read the same backward as forward. Some examples of palindromic words are redivider, deified, civic, radar, level, rotor, kayak, reviver, racecar, madam, and refer.
+
+There are also word-unit palindromes in which the unit of reversal is the word ("Is it crazy how saying sentences backwards creates backwards sentences saying how crazy it is?").
+So what are you waiting for? Go ahead and input a string and this website will tell you if it is a Palindrome or not. </p>
+ 
+  <form action="/result" method="POST" class="new-palindrome-form">
+    <label>
+      CheckText
+      <input id="CheckText" type="text" name="text-to-test" placeholder="Enter text"  class="full-width-input"/>
+    </label>
+   <button type="submit">Submit</button>
+  </form>
+   {{#if hasErrors}}
+ <section class="error">
+{{this}}
+</section>
+  {{/if}}
+  </article>

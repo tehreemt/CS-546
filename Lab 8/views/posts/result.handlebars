@@ -1,0 +1,21 @@
+    <article class="results">
+        <h1>The Palindrome Results!</h1>
+        <p> {{text1}}</p>
+        {{#if result}}
+    <section class="success"><h2>Results:</h2>
+      
+     <p>
+     The String is a Palindrome!</p>
+    </section>
+    <a href="/" class="palindrome-link">Try another palindrome</a>
+
+
+ {{else}}
+<section class="failure"><h2>Results:</h2>
+<p>
+The String  is not a Palindrome</p>
+</section>
+    <a href="/" class="palindrome-link">Try another palindrome</a>   
+ {{/if}}
+ 
+</article>
