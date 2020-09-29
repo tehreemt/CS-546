@@ -1,0 +1,16 @@
+{
+  "name": "lab-05",
+  "version": "1.0.0",
+  "description": "Lab 05 assignment",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "author": "Tehreem Tungekar, 10457940",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "uuid": "^3.3.2"
+  }
+}
