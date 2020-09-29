@@ -1,0 +1,15 @@
+{
+  "name": "lab-04",
+  "version": "1.0.0",
+  "description": "Lab 4 Assignment",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "Tungekar Tehreem, 10457940",
+  "license": "ISC",
+  "dependencies": {
+    "mongodb": "^3.3.0-beta2"
+  }
+}
