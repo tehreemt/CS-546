@@ -1,0 +1,75 @@
+
+
+body {
+    background-color: wheat;
+    font-family:"Times New Roman",  Georgia, Cambria, Times, serif;
+      }
+
+     
+  label{
+      font-weight: bold;
+      color: rebeccapurple;
+  }
+
+    h1{
+        font-style: italic;
+        text-align: center;
+        color:maroon;
+    }
+    h2{
+        font-style: oblique;
+        text-align: center;
+    }
+form{
+    text-align: center;
+    background-color: coral;
+    margin-top: 75pt;
+}
+    ::placeholder{
+color:red;
+background-color:pink;
+    }
+
+    p{
+        text-align: center;
+        margin-top: 50pt;
+    }
+    button{
+        background-color: brown;
+        color: goldenrod;
+    }
+.success{
+    color:#28a745;
+    background-color:lavenderblush;
+    text-align: center;
+    margin-top: 100pt;
+    font-weight: bold;
+}
+
+
+.failure{
+color:#dc3545;
+background-color: cornsilk;
+text-align: center;
+margin-top: 100pt;
+font-weight: bold;
+}
+
+
+.error{
+    color: goldenrod;
+    background-color:azure;
+    font-size: 20;
+}
+
+.palindrome-link:hover {
+  
+    font-style: oblique;
+    font-weight: 700;
+  }
+  .palindrome-link,
+  .palindrome-link:link {
+    color:palevioletred;
+  }
+
+  
