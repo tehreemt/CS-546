@@ -1,0 +1,48 @@
+h1{
+    color:maroon;
+}
+body{
+    text-align: center;
+    color: beige;
+}
+form{
+    background-color: cornsilk;
+    text-align: center;
+}
+p{
+    color:red;
+}
+
+table,
+tr,
+td {
+    border: 2px solid black;
+    background-color: beige;
+    color: salmon;
+    font-weight: bold;
+}
+
+button{
+    color: navy;
+}
+label{
+    font-weight: bold;
+    color: rebeccapurple;
+}
+
+.logout-link:hover {
+  
+    font-style: oblique;
+    font-weight: 700;
+  }
+  .logout-link,
+  .logout-link:link {
+    color:palevioletred;
+  }
+
+  .login-link:hover {
+  
+    font-style: italic;
+    font-weight: 700;
+    color:navy;
+  }
