@@ -1,0 +1,47 @@
+h1{
+    color: maroon;
+}
+header{
+    background-color: burlywood;
+    text-align: center;
+}
+footer{
+    background-color: cornsilk;
+    text-align: center;
+    font-style: italic;
+    
+}
+p{
+    color: midnightblue;
+}
+
+label{
+    background-color: palegoldenrod;
+    color:maroon;
+}
+
+textarea{
+    color: peru;
+}
+
+form{
+    text-align: center;
+    background-color:bisque;
+    margin-top: 75pt;
+}
+    ::placeholder{
+color:pink;
+    }
+
+    .is-palindrome{
+        color:#0000FF;
+    }
+
+    .not-palindrome{
+        color:#FF0000;
+    }
+
+    .error{
+        text-align: center;
+        color: crimson;
+    }
