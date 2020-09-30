@@ -1,0 +1,16 @@
+{
+  "name": "lab-09",
+  "version": "1.0.0",
+  "description": "lab 09",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "author": "Tehreem Tungekar, 10457940",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongodb": "^3.3.0-beta2"
+  }
+}
